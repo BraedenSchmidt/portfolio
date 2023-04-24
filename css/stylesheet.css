@@ -1,0 +1,619 @@
+body {
+  box-sizing: border-box;
+  margin: 32px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.space {
+  width: 32px;
+  height: 32px;
+}
+.space1 {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 64px;
+}
+
+.container0 {
+  width: 90%;
+  height: 104px;
+  position: fixed;
+  background-color: white;
+  margin-top: -32px;
+  z-index: 5;
+}
+.logo {
+  height: 50px;
+  width: auto;
+  text-align: left;
+  margin-top: 32px;
+}
+.name {
+  font-size: 24px;
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.hbutton {
+  height: 80px;
+  width: auto;
+  display: inline-block;
+  margin-right: -8px;
+  margin-top: 24px;
+}
+.pbutton {
+  height: 80px;
+  width: auto;
+  display: inline-block;
+  margin-top: 24px;
+}
+.email {
+  height: 80px;
+  width: auto;
+  display: inline-block;
+  margin-top: 24px;
+}
+
+.container {
+  height: 800px;
+  width: auto;
+}
+.intro {
+  font-size: 72px;
+  line-height: 80px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 104px;
+}
+.intro2 {
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 16px;
+}
+.container1 {
+  height: 800px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: px;
+  text-align: left;
+}
+.me {
+  width: 640px;
+  height: auto;
+  margin-top: 104px;
+/*  border: solid #78d4f7 4px;*/
+}
+
+.linkc {
+  height: 80px;
+  width: auto;
+  margin-top: -180px;
+  text-align: center;
+}
+.a3 {
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 160px;
+  margin-left: 80px;
+}
+.a2 {
+  font-size: 24px;
+  display: inline-block;
+  margin-right: px;
+}
+
+.pc {
+  height: auto;
+  width: auto;
+  margin-bottom: px;
+  margin-top: -64px;
+}
+.a4 {
+  margin-top: px;
+  margin-bottom: px;
+  font-size: 72px;
+  text-align: left;
+  margin-left: px;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+}
+.pbutton1 {
+  font-size: 24px;
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.image {
+  width: 600px;
+  height: auto;
+}
+
+.content {
+  margin: 0% auto;
+  padding: 0;
+  height: 800px;
+  width: 600px;
+  overflow: hidden;
+  box-shadow: 20px hsl(0, 0%, 3%);
+  z-index: -1;
+}
+.show {
+  padding: 0%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide_content {
+  float: left;
+  height: 500px;
+  width: auto;
+}
+
+.slides {
+  width: 1800px;
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  /* -webkit-animation-direction: alternate; */
+  -webkit-animation-play-state: running;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slide {
+
+  0% {
+    margin-left: calc(0px * 0);
+  }
+  30% {
+    margin-left: calc(0px * 0);
+  }
+
+  33% {
+    margin-left: calc(-600px * 1);
+  }
+  66% {
+    margin-left: calc(-600px * 1);
+  }
+
+  70% {
+    margin-left: calc(-600px * 2);
+  }
+  100% {
+    margin-left: calc(-600px * 2);
+  }
+}
+
+.container2 {
+  height: 800px;
+  /*border: solid 2px black;*/
+  margin-top: -px;
+}
+.container3 {
+  height: 800px;
+  /*border: solid 2px black;*/
+  margin-top: -px;
+}
+.container4 {
+  width: 600px;
+  height: auto;
+}
+.project {
+    font-size: 40px;
+}
+.project1 {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-right: 32px;
+    line-height: 32px;
+}
+.project2 {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-right: 32px;
+    line-height: 32px;
+}
+
+.b1 {
+  font-size: 24px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.container6 {
+  width: 100%;
+  height: 200px;
+}
+.center {
+  font-size: 72px;
+  line-height: 80px;
+  text-align: center;
+  margin-top: 96px;
+}
+.emailb {
+  height: 64px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: -8px;
+}
+
+/* Media */
+
+@media (max-width: 1400px) {
+  .container {
+    height: 700px;
+    width: auto;
+  }
+  .intro {
+    font-size: 54px;
+    line-height: 64px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 160px;
+  }
+  .intro2 {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 16px;
+  }
+  .container1 {
+    height: 700px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 136px;
+    text-align: left;
+    margin-top: 64px;
+  }
+  .me {
+    width: 500px;
+    height: auto;
+  }
+
+  .image {
+    width: 500px;
+    height: auto;
+  }
+  .content {
+    margin: 0% auto;
+    padding: 0;
+    height: 600px;
+    width: 500px;
+    overflow: hidden;
+    box-shadow: 20px hsl(0, 0%, 3%);
+    z-index: -1;
+  }
+  .show {
+    padding: 0%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide_content {
+    float: left;
+    height: 500px;
+    width: auto;
+  }
+  .slides {
+    width: 1500px;
+    -webkit-animation-name: slide1;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    /* -webkit-animation-direction: alternate; */
+    -webkit-animation-play-state: running;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes slide1 {
+
+    0% {
+      margin-left: calc(0px * 0);
+    }
+    30% {
+      margin-left: calc(0px * 0);
+    }
+
+    33% {
+      margin-left: calc(-500px * 1);
+    }
+    66% {
+      margin-left: calc(-500px * 1);
+    }
+
+    70% {
+      margin-left: calc(-500px * 2);
+    }
+    100% {
+      margin-left: calc(-500px * 2);
+    }
+  }
+  .container2 {
+    height: 600px;
+    /*border: solid 2px black;*/
+    margin-top: -px;
+  }
+  .container3 {
+    height: 600px;
+    /*border: solid 2px black;*/
+    margin-top: -px;
+  }
+  .container4 {
+    width: 500px;
+    height: auto;
+  }
+  .project {
+      font-size: 40px;
+  }
+  .project1 {
+      font-size: 20px;
+      margin-top: 16px;
+      margin-right: 32px;
+      line-height: 32px;
+  }
+  .project2 {
+      font-size: 24px;
+      margin-top: 24px;
+      margin-right: 32px;
+      line-height: 32px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    height: 700px;
+    width: auto;
+  }
+  .intro {
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 200px;
+  }
+  .intro2 {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 16px;
+  }
+  .container1 {
+    height: 700px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 104px;
+    text-align: left;
+    margin-top: 96px;
+  }
+  .me {
+    width: 400px;
+    height: auto;
+  }
+
+    .image {
+      width: 400px;
+      height: auto;
+    }
+    .content {
+      margin: 0% auto;
+      padding: 0;
+      height: 500px;
+      width: 400px;
+      overflow: hidden;
+      box-shadow: 20px hsl(0, 0%, 3%);
+      z-index: -1;
+    }
+    .show {
+      padding: 0%;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+    }
+    .slide_content {
+      float: left;
+      height: 500px;
+      width: auto;
+    }
+    .slides {
+      width: 1200px;
+      -webkit-animation-name: slide2;
+      -webkit-animation-duration: 15s;
+      -webkit-animation-iteration-count: infinite;
+      /* -webkit-animation-direction: alternate; */
+      -webkit-animation-play-state: running;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @keyframes slide2 {
+
+      0% {
+        margin-left: calc(0px * 0);
+      }
+      30% {
+        margin-left: calc(0px * 0);
+      }
+
+      33% {
+        margin-left: calc(-400px * 1);
+      }
+      66% {
+        margin-left: calc(-400px * 1);
+      }
+
+      70% {
+        margin-left: calc(-400px * 2);
+      }
+      100% {
+        margin-left: calc(-400px * 2);
+      }
+    }
+    .container2 {
+      height: 500px;
+      /*border: solid 2px black;*/
+      margin-top: -px;
+    }
+    .container3 {
+      height: 500px;
+      /*border: solid 2px black;*/
+      margin-top: -px;
+    }
+    .container4 {
+      width: 400px;
+      height: auto;
+    }
+    .project {
+        font-size: 40px;
+    }
+    .project1 {
+        font-size: 16px;
+        margin-top: 16px;
+        margin-right: 32px;
+        line-height: 32px;
+    }
+    .project2 {
+        font-size: 24px;
+        margin-top: 24px;
+        margin-right: 32px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 900px) {
+
+}
+
+/* Main text */
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-family: 'Bespoke Slab', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #78d4f7;
+}
+
+/* portfolio */
+
+.containers {
+  width: auto;
+  height: 500px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  margin-left: 32px;
+}
+.work {
+  float: right;
+  margin-right: 240px;
+  margin-top: -320px;
+}
+.work1 {
+  float: right;
+  margin-right: px;
+  margin-top: -500px;
+  height: 500px;
+}
+
+@media (max-width: 1400px) {
+  .containers {
+    width: auto;
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-left: 32px;
+  }
+  .work {
+    float: right;
+    margin-right: 96px;
+    margin-top: -320px;
+    height: 500px;
+  }
+  .work1 {
+    float: right;
+    margin-right: px;
+    margin-top: -400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .containers {
+    width: auto;
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-left: 32px;
+  }
+  .work {
+    float: right;
+    margin-right: 0px;
+    margin-top: -320px;
+    height: 400px;
+  }
+  .work1 {
+    float: right;
+    margin-right: px;
+    margin-top: -500px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 900px) {
+  .containers {
+    width: auto;
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-left: 32px;
+  }
+  .work {
+    float: right;
+    margin-right: 240px;
+    margin-top: -320px;
+  }
+  .work1 {
+    float: right;
+    margin-right: px;
+    margin-top: -500px;
+    height: 500px;
+  }
+}
